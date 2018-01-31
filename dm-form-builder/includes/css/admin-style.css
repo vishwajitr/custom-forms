@@ -1,0 +1,110 @@
+/*
+ * Form Tab
+ */
+#tag-generator-list a.button {
+	font-size: 12px;
+	height: 26px;
+	line-height: 24px;
+	margin: 2px;
+	padding: 0 8px 1px;
+}
+
+.tag-generator-panel {
+	position: relative;
+	height: 495px;
+}
+
+.tag-generator-panel .control-box {
+	padding: 0;
+	margin: 0;
+	height: 380px;
+	overflow: auto;
+}
+
+.tag-generator-panel .control-box > fieldset legend {
+	border: 1px solid #dfdfdf;
+	border-left: 4px solid #00a0d2;
+	background: #f7fcfe;
+	padding: 4px 12px;
+	margin: 4px 0;
+	line-height: 1.4em;
+	width: 95%;
+}
+
+.tag-generator-panel table {
+	width: 100%;
+}
+
+.tag-generator-panel table.form-table th {
+	width: 120px;
+	padding: 4px 10px 4px 0;
+	font-size: 13px;
+}
+
+.tag-generator-panel .form-table td {
+	padding: 4px 10px !important;
+	font-size: 13px;
+}
+
+.tag-generator-panel .control-box input.oneline {
+	width: 200px;
+}
+
+.tag-generator-panel .control-box textarea.values {
+	width: 200px;
+	height: 6em;
+}
+
+.tag-generator-panel .control-box input[type="number"],
+.tag-generator-panel .control-box input[type="date"] {
+	width: 88px;
+}
+
+.tag-generator-panel .control-box table caption {
+	text-align: left;
+	font-size: 110%;
+	font-weight: bold;
+	color: #777;
+	margin: 10px 0 5px;
+}
+
+.tag-generator-panel .control-box table.form-table td label {
+	line-height: 1.1em;
+}
+
+.tag-generator-panel .control-box table.form-table td label .description {
+	line-height: 1.4em;
+}
+
+.tag-generator-panel .insert-box {
+	position: absolute;
+	left: -15px;
+	right: -15px;
+	bottom: -15px;
+	width: 100%;
+	height: 84px;
+	margin: 0;
+	padding: 8px 16px;
+	background-color: #fcfcfc;
+	border-top: 1px solid #dfdfdf;
+	overflow: auto;
+}
+
+.tag-generator-panel .insert-box input.tag {
+	width: 480px;
+	float: left;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.tag-generator-panel .insert-box .submitbox {
+	padding: 2px 4px;
+}
+
+.tag-generator-panel .insert-box .submitbox input[type="button"] {
+	float: right;
+}
+
+.tag-generator-panel .insert-box .description label {
+	cursor: text;
+}
